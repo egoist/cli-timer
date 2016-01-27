@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+'use strict'
+
+/**
+ * Module dependencies
+ */
+var timer = require('.')
+var update = require('update-notifier')
+var pkg = require('./package')
+
+/**
+ * Update notify
+ */
+update({pkg: pkg}).notify()
+
+/**
+ * Run timer
+ */
+var command = process.argv[2]
+timer(command)
