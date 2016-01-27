@@ -15,8 +15,9 @@ var config = new Config(pkg.name)
  * Get duration
  */
 function getDuration() {
+	var durationStart = new Date()
 	var startAt = config.get('startAt')
-	var duration = new Date() - new Date(startAt)
+	var duration = durationStart - new Date(startAt)
 	return String(duration / 1000) + ' seconds'
 }
 

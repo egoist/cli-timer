@@ -1,6 +1,6 @@
 {
   "name": "cli-timer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "timer in command line",
   "license": "MIT",
   "repository": "egoist/cli-timer",
