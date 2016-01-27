@@ -2,7 +2,7 @@
 
 > timer in command line
 
-[![asciicast](https://asciinema.org/a/307y5sm3pgz8u1p80t5dhgrns.png)](https://asciinema.org/a/307y5sm3pgz8u1p80t5dhgrns)
+[![asciicast](https://asciinema.org/a/34876.png)](https://asciinema.org/a/34876)
 
 ## CLI
 
